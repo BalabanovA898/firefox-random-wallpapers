@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Firefox anime wallpaper",
+    "version": "1.0",
+    
+    "description": "Random choose a wallpaper for main screen.",
+    
+    "chrome_url_overrides" : {
+	    "newtab": "index.html"
+    },
+    
+    "content_scripts": [
+	{
+	    "matches": ["about:newtab"],
+	    "js": ["./load_background.js", "./index.js"]
+	}
+    ],
+    "permissions": ["tabs", "topSites", "bookmarks"]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "firefox-random-anime-wallpaper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BalabanovA898/firefox-random-wallpapers.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BalabanovA898/firefox-random-wallpapers/issues"
+  },
+  "homepage": "https://github.com/BalabanovA898/firefox-random-wallpapers#readme",
+  "description": ""
+}
