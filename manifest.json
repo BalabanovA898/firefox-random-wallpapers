@@ -1,19 +1,19 @@
 {
     "manifest_version": 2,
-    "name": "Firefox anime wallpaper",
-    "version": "1.0",
+    "name": "custom 'new tab' with random anime wallpapers",
+    "version": "2.0",
     
-    "description": "Random choose a wallpaper for main screen.",
+    "description": "Random choose a wallpaper for new tab.",
     
     "chrome_url_overrides" : {
-	    "newtab": "index.html"
+	    "newtab": "newtab.html"
     },
     
     "content_scripts": [
 	{
 	    "matches": ["about:newtab"],
-	    "js": ["./load_background.js", "./index.js"]
+	    "js": ["./load_background.js", "./top_sites_handler.js"]
 	}
     ],
-    "permissions": ["tabs", "topSites", "bookmarks"]
+    "permissions": ["topSites"]
 }
